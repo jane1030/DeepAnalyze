@@ -25,7 +25,7 @@ pkill -f "npm.*dev" 2>/dev/null || true
 FRONTEND_PORT=${FRONTEND_PORT:-4000}
 
 # Check and clean ports
-check_port 8000
+# check_port 8000
 check_port 8100
 check_port 8200
 check_port $FRONTEND_PORT
@@ -62,7 +62,7 @@ echo ""
 echo "All services started successfully."
 echo ""
 echo "Service URLs:"
-echo "  Mock API:     http://localhost:8000"
+echo "  Ollama API:   http://localhost:11434"
 echo "  Backend API:  http://localhost:8200"
 echo "  Frontend:     http://localhost:$FRONTEND_PORT"
 echo "  File Service: http://localhost:8100"

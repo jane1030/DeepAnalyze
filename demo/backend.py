@@ -122,12 +122,11 @@ def execute_code_safe(
 
 
 # API endpoint and model path
-API_BASE = "http://localhost:8000/v1"  # this localhost is for vllm api, do not change
-MODEL_PATH = "DeepAnalyze-8B"  # replace to your path to DeepAnalyze-8B
-
+API_BASE = "http://localhost:11434/v1"  # Ollama API address
+MODEL_PATH = "deepanalyze"  # Ollama model name
 
 # Initialize OpenAI client
-client = openai.OpenAI(base_url=API_BASE, api_key="dummy")
+client = openai.OpenAI(base_url=API_BASE, api_key="ollama")
 
 # Workspace directory
 WORKSPACE_BASE_DIR = "workspace"

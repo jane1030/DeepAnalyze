@@ -24,3 +24,22 @@ wheels/
 **/.claude/
 API/backend/workspace/
 **/CLAUDE.md
+
+# Local environment (added by user)
+venv/
+llama.cpp/
+node_modules/
+demo/chat/node_modules/
+
+# Large files and installers
+models/
+*.gguf
+*.pkg
+*.zip
+
+# Logs and runtime data
+logs/
+demo/logs/
+demo/workspace/
+__pycache__/
+*.log

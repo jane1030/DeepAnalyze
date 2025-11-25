@@ -1,4 +1,4 @@
-vllm>=0.8.5
+# vllm>=0.6.0
 numpy
 pandas
 scikit-learn
